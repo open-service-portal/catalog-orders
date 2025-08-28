@@ -11,4 +11,4 @@ metadata:
       https://github.com/open-service-portal/catalog-orders/blob/main/rancher-desktop/Namespace/demo-namespace.yaml
   name: demo-namespace
 spec:
-  name: demo-namespace
+  name: demo
