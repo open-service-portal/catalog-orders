@@ -12,11 +12,4 @@ metadata:
   name: demo-namespace
   namespace: default
 spec:
-  networkPolicies:
-    enabled: false
-  quotas:
-    enabled: false
-    limits:
-      cpu: '10'
-      memory: 10Gi
-      storage: 100Gi
+  name: demo-namespace
