@@ -1,0 +1,22 @@
+apiVersion: openportal.dev/v1alpha1
+kind: Namespace
+metadata:
+  annotations:
+    terasky.backstage.io/source-info: >-
+      {"pushToGit":true,"gitBranch":"main","gitRepo":"github.com?owner=open-service-portal&repo=catalog-orders","gitLayout":"cluster-scoped","basePath":"rancher-desktop/default/Namespace"}
+    terasky.backstage.io/add-to-catalog: 'true'
+    terasky.backstage.io/owner: group:default/platform-team
+    terasky.backstage.io/system: default
+    terasky.backstage.io/source-file-url: >-
+      https://github.com/open-service-portal/catalog-orders/blob/main/rancher-desktop/default/Namespace/demo-namespace.yaml
+  name: demo-namespace
+  namespace: default
+spec:
+  networkPolicies:
+    enabled: false
+  quotas:
+    enabled: false
+    limits:
+      cpu: '10'
+      memory: 10Gi
+      storage: 100Gi
