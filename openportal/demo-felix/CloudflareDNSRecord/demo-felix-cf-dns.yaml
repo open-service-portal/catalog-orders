@@ -1,4 +1,4 @@
-apiVersion: platform.io/v1alpha1
+apiVersion: openportal.dev/v1alpha1
 kind: CloudflareDNSRecord
 metadata:
   annotations:
