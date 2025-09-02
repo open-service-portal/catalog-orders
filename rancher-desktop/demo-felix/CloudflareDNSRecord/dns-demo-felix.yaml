@@ -1,0 +1,19 @@
+apiVersion: openportal.dev/v1alpha1
+kind: CloudflareDNSRecord
+metadata:
+  annotations:
+    terasky.backstage.io/source-info: >-
+      {"pushToGit":true,"gitBranch":"main","gitRepo":"github.com?owner=open-service-portal&repo=catalog-orders","gitLayout":"cluster-scoped","basePath":"rancher-desktop/demo-felix/CloudflareDNSRecord"}
+    terasky.backstage.io/add-to-catalog: 'true'
+    terasky.backstage.io/owner: group:default/platform-team
+    terasky.backstage.io/system: demo-felix
+    terasky.backstage.io/source-file-url: >-
+      https://github.com/open-service-portal/catalog-orders/blob/main/rancher-desktop/demo-felix/CloudflareDNSRecord/dns-demo-felix.yaml
+  name: dns-demo-felix
+  namespace: demo-felix
+spec:
+  proxied: false
+  comment: local test felix
+  name: dns-demo-felix
+  type: A
+  value: 1.1.1.1
