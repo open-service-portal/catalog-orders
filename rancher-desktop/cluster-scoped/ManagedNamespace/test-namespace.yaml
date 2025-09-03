@@ -1,0 +1,13 @@
+apiVersion: openportal.dev/v1alpha1
+kind: ManagedNamespace
+metadata:
+  annotations:
+    terasky.backstage.io/source-info: >-
+      {"pushToGit":true,"gitBranch":"main","gitRepo":"github.com?owner=open-service-portal&repo=catalog-orders","gitLayout":"cluster-scoped","basePath":"rancher-desktop/cluster-scoped/ManagedNamespace"}
+    terasky.backstage.io/add-to-catalog: 'true'
+    terasky.backstage.io/owner: group:default/platform-team
+    terasky.backstage.io/source-file-url: >-
+      https://github.com/open-service-portal/catalog-orders/blob/main/rancher-desktop/cluster-scoped/ManagedNamespace/test-namespace.yaml
+  name: test-namespace
+spec:
+  name: test
