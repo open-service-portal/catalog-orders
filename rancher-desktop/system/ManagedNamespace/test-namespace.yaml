@@ -9,5 +9,6 @@ metadata:
     terasky.backstage.io/source-file-url: >-
       https://github.com/open-service-portal/catalog-orders/blob/main/rancher-desktop/cluster-scoped/ManagedNamespace/test-namespace.yaml
   name: test-namespace
+  namespace: system  # Added namespace for namespaced XR
 spec:
   name: test
