@@ -10,6 +10,5 @@ metadata:
     terasky.backstage.io/source-file-url: >-
       https://github.com/open-service-portal/catalog-orders/blob/main/openportal/system/ManagedNamespace/team-lala.yaml
   name: team-lala
-  namespace: system
 spec:
   name: team-lala
