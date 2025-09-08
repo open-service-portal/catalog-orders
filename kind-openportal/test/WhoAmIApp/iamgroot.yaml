@@ -1,4 +1,4 @@
-apiVersion: demo.openportal.dev/v1alpha1
+apiVersion: openportal.dev/v1alpha1
 kind: WhoAmIApp
 metadata:
   annotations:
