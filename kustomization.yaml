@@ -1,0 +1,20 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  # OpenPortal cluster resources
+  - openportal/system/ManagedNamespace/test-namespace.yaml
+  - openportal/test/WhoAmIService/whoami.yaml
+  
+  # OSP-OpenPortal cluster resources  
+  - osp-openportal/demo/WhoAmIService/whoami-demo.yaml
+  
+  # Kind cluster resources
+  - kind-openportal/test/WhoAmIApp/iamgroot.yaml
+  
+  # Rancher Desktop resources
+  - rancher-desktop/demo/CloudflareDNSRecord/dns-demo-felix.yaml
+  - rancher-desktop/demo/WhoAmIService/app.yaml
+  - rancher-desktop/demo/WhoAmIApp/demo-whoami-felix.yaml
+  - rancher-desktop/demo/WhoAmIApp/whoami-mstingl-demo.yaml
+  - rancher-desktop/system/ManagedNamespace/test-namespace.yaml
