@@ -1,0 +1,15 @@
+apiVersion: openportal.dev/v1alpha1
+kind: WhoAmIService
+metadata:
+  annotations:
+    terasky.backstage.io/source-info: >-
+      {"pushToGit":true,"gitBranch":"main","gitRepo":"github.com?owner=open-service-portal&repo=catalog-orders","gitLayout":"cluster-scoped","basePath":"openportal/demo/WhoAmIService"}
+    terasky.backstage.io/add-to-catalog: 'true'
+    terasky.backstage.io/owner: group:default/service-provider
+    terasky.backstage.io/system: demo
+    terasky.backstage.io/source-file-url: >-
+      https://github.com/open-service-portal/catalog-orders/blob/main/openportal/demo/WhoAmIService/michael-wai.yaml
+  name: michael-wai
+  namespace: demo
+spec:
+  name: michael-wai
