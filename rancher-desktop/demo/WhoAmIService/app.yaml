@@ -12,5 +12,4 @@ metadata:
   name: app
   namespace: demo
 spec:
-  proxied: false
   name: app
