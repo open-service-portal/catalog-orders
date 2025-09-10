@@ -1,0 +1,16 @@
+apiVersion: openportal.dev/v1alpha1
+kind: WhoAmIService
+metadata:
+  annotations:
+    terasky.backstage.io/source-info: >-
+      {"pushToGit":true,"gitBranch":"main","gitRepo":"github.com?owner=open-service-portal&repo=catalog-orders","gitLayout":"cluster-scoped","basePath":"kind-test/demo/WhoAmIService"}
+    terasky.backstage.io/add-to-catalog: 'true'
+    terasky.backstage.io/owner: group:default/guests
+    terasky.backstage.io/system: demo
+    terasky.backstage.io/source-file-url: >-
+      https://github.com/open-service-portal/catalog-orders/blob/main/kind-test/demo/WhoAmIService/hfggfhdgnhgf.yaml
+  name: hfggfhdgnhgf
+  namespace: demo
+spec:
+  crossplane:
+    compositionUpdatePolicy: Automatic
