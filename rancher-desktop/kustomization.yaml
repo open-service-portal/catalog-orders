@@ -4,6 +4,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
+  - cluster-scoped/ManagedNamespace/ns-felix14.yaml
   - demo/CloudflareDNSRecord/dns-demo-felix.yaml
   - demo/WhoAmIApp/demo-whoami-felix.yaml
   - demo/WhoAmIApp/whoami-mstingl-demo.yaml
