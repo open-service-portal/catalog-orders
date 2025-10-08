@@ -1,0 +1,9 @@
+apiVersion: openportal.dev/v1alpha1
+kind: ManagedNamespace
+metadata:
+  annotations:
+    terasky.backstage.io/source-info: '{"basePath":"rancher-desktop/undefined/ManagedNamespace"}'
+    terasky.backstage.io/add-to-catalog: 'true'
+  name: ns-felix14
+spec:
+  name: ns-felix14
