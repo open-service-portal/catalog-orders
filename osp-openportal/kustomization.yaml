@@ -4,6 +4,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
+  - cluster-scoped/ManagedNamespace/felix-test.yaml
   - cluster-scoped/ManagedNamespace/team-123-namespace.yaml
   - cluster-scoped/ManagedNamespace/team-felix-namespace.yaml
   - demo/WhoAmIService/whoami-demo.yaml
